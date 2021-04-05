@@ -4,6 +4,7 @@
 
 let userName=prompt('what is your name?');
 userName=userName.toLowerCase();
+console.log(userName)
 let userAge=prompt('what is your age?');
 alert('welcome to our website '+     userName       + ' your age is ' +      userAge      +' we hope for you to live untle 100 year'); 
 
