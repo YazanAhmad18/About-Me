@@ -79,11 +79,11 @@ case 'y':
           break;
 
           default:
-              alert('you have to submit answer')
+              alert('you have to submit answer');
 
 
 }
 
-alert('thank you to visit our website  ' + userName)
+alert('thank you to visit our website  ' + userName);
 
 
