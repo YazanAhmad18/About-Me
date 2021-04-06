@@ -78,7 +78,12 @@ case 'y':
           alert('your answer is worng');
           break;
 
+          default:
+              alert('you have to submit answer')
+
 
 }
+
+alert('thank you to visit our website  ' + userName)
 
 
