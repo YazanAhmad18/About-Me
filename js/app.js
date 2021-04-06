@@ -34,12 +34,12 @@ let statue=prompt('Do you expect that I live now in the city of Jerash, or not?'
 statue=statue.toLowerCase();
 // console.log(statue);
 if(statue==='yes' || statue==='y'){
-  alert('your answer is correct');
-  mark++;
 
+  alert('your answer is wrong :  i live in amman' );
 }
 else if(statue==='no'|| statue==='n'){
-  alert('your answer is wrong :  i live in amman' );
+  alert('your answer is correct');
+  mark++;
 }
 else{
 
@@ -71,12 +71,13 @@ continent=continent.toLowerCase();
 // console.log(continent);
 
 if(continent==='yes' || continent==='y'){
-  alert('your answer is correct');
-  mark++;
+
+  alert('your answer is wrong : i am not millionaire but i hope to become a millionare');
 
 }
 else if(continent==='no'|| continent==='n'){
-  alert('your answer is wrong : i am not millionaire but i hope to become a millionare');
+  alert('your answer is correct');
+  mark++;
 }
 else{
 
@@ -140,8 +141,8 @@ for(let i=1;i<=6;i++){
 
     if(mood===things[j]){
       alert('your anwser is correct');
-      i=6;
       mark++;
+      i=6;
 
       break;
 
