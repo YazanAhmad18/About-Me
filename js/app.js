@@ -1,7 +1,7 @@
 'use strict';
 
 
-
+let mark=0;
 let userName=prompt('what is your name?');
 userName=userName.toLowerCase();
 // console.log('what is your name?')
@@ -17,7 +17,7 @@ city=city.toLowerCase();
 // console.log(city);
 if(city==='yes' || city==='y'){
   alert('your answer is correct');
-
+  mark++;
 }
 else if(city==='no'|| city==='n'){
   alert('your answer is wrong: i am from jerash');
@@ -35,6 +35,7 @@ statue=statue.toLowerCase();
 // console.log(statue);
 if(statue==='yes' || statue==='y'){
   alert('your answer is correct');
+  mark++;
 
 }
 else if(statue==='no'|| statue==='n'){
@@ -52,6 +53,7 @@ team=team.toLowerCase();
 // console.log(team);
 if(team==='yes' || team==='y'){
   alert('your answer is correct');
+  mark++;
 
 }
 else if(team==='no'|| team==='n'){
@@ -70,6 +72,7 @@ continent=continent.toLowerCase();
 
 if(continent==='yes' || continent==='y'){
   alert('your answer is correct');
+  mark++;
 
 }
 else if(continent==='no'|| continent==='n'){
@@ -89,6 +92,8 @@ switch(wonder){
 case 'yes':
 case 'y':
   alert('your answer is correct') ;
+  mark++;
+
   break;
 case 'no':
 case 'n':
@@ -108,6 +113,8 @@ for(let i=1;i<=4;i++){
 
   if(myAge===22){
     alert('your answer is correct');
+    mark++;
+
     break;
   }
   else if (myAge<15){
@@ -127,13 +134,15 @@ alert('my age is 22');
 let things=['money','travel','hang out','sleep','play football'];
 
 for(let i=1;i<=6;i++){
-  let mood=prompt('Can you guess what things makes me happy?');
+  let mood=prompt('Can you guess what things makes me happy you have only 6 chances?');
 
   for(let j=0;j<things.length;j++){
 
     if(mood===things[j]){
       alert('your anwser is correct');
       i=6;
+      mark++;
+
       break;
 
 
@@ -158,3 +167,29 @@ alert('things that make me happy sleep,travel,hang out ,paly footbal,money');
 alert('thank you to visit our website  ' + userName);
 
 
+switch (mark) {
+case 0:
+  alert('Your final mark is : '+ mark );
+  break;
+case 1:
+  alert('Your final mark is : '+ mark );
+  break;
+case 2:
+  alert('Your final mark is : '+ mark );
+  break;
+case 3:
+  alert('Your final mark is : '+ mark );
+  break;
+case 4:
+  alert('Your final mark is : '+ mark );
+  break;
+case 5:
+  alert('Your final mark is : '+ mark );
+  break;
+case 6:
+  alert('Your final mark is : '+ mark );
+  break;
+case 7:
+  alert('Your final mark is : '+ mark );
+  break;
+}
