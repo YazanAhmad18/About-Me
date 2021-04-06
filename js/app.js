@@ -43,7 +43,7 @@ else if(statue==='no'|| statue==='n'){
 }
 else{
 
-  alert('you have to submit answer');
+  alert('you have to submit answer pleas');
 
 }
 
