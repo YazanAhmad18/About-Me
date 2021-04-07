@@ -96,6 +96,8 @@ else{
 }
 }
 question4 ();
+function question5(){
+
 
 let wonder=prompt('Is my major in software engineering?' ,'y/n  or yes/no');
 // console.log("Is Petra located in Jordan?");
@@ -119,6 +121,8 @@ default:
 
 
 }
+}
+question5 ();
 let myAge=prompt('Can you guess what my age is?');
 
 for(let i=1;i<=4;i++){
