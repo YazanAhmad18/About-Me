@@ -123,6 +123,8 @@ default:
 }
 }
 question5 ();
+function question6(){
+
 let myAge=prompt('Can you guess what my age is?');
 
 for(let i=1;i<=4;i++){
@@ -147,7 +149,10 @@ for(let i=1;i<=4;i++){
     myAge=prompt('Can you guess what my age is?');
   }
 }
+
 alert('my age is 22');
+}
+question6 ();
 let things=['money','travel','hang out','sleep','play football'];
 
 for(let i=1;i<=6;i++){
