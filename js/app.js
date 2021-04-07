@@ -142,7 +142,7 @@ for(let i=1;i<=6;i++){
     if(mood===things[j]){
       alert('your anwser is correct');
       mark++;
-      i=6;
+      i=7;
 
       break;
 
@@ -150,7 +150,7 @@ for(let i=1;i<=6;i++){
     }
 
   }
- 
+
 }
 
 
