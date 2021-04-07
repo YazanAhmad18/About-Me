@@ -150,7 +150,10 @@ for(let i=1;i<=6;i++){
     }
 
   }
+  if (i===6){
+    alert('i am sorry you could not guess');
 
+  }
 }
 
 
