@@ -74,6 +74,7 @@ else{
 }
 }
 question3 ();
+function question4(){
 let continent=prompt('Do you think that I am a millionaire?','y/n  or yes/no');
 // console.log('Do you think that I am a millionaire?');
 continent=continent.toLowerCase();
@@ -93,6 +94,8 @@ else{
   alert('you have to submit answer');
 
 }
+}
+question4 ();
 
 let wonder=prompt('Is my major in software engineering?' ,'y/n  or yes/no');
 // console.log("Is Petra located in Jordan?");
