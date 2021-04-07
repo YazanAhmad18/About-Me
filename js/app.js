@@ -10,6 +10,7 @@ let userAge=prompt('what is your age?');
 alert('welcome to our website '+ userName + ' your age is ' + userAge +' we hope for you to live untle 100 year');
 
 alert('we are going to ask you 7 questions about me Just Just let\'s play a guessing game to give you some excitement');
+function question1(){
 
 let city=prompt('Do you expect that I am from the city of Jerash?' , 'y/n  or yes/no' );
 // console.log('Do you expect that I am from the city of Jerash?')
@@ -28,7 +29,8 @@ else{
 
 }
 
-
+}
+question1();
 let statue=prompt('Do you expect that I live now in the city of Jerash, or not?' ,'y/n  or yes/no');
 // console.log('Do you expect that I live now in the city of Jerash, or not?')
 statue=statue.toLowerCase();
