@@ -153,6 +153,7 @@ for(let i=1;i<=4;i++){
 alert('my age is 22');
 }
 question6 ();
+function question7(){
 let things=['money','travel','hang out','sleep','play football'];
 
 for(let i=1;i<=6;i++){
@@ -181,7 +182,8 @@ for(let i=1;i<=6;i++){
 
 
 alert('things that make me happy sleep,travel,hang out ,paly footbal,money');
-
+}
+question7 ();
 
 alert('thank you to visit our website  ' + userName);
 
