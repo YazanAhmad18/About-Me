@@ -31,6 +31,8 @@ else{
 
 }
 question1();
+function question2(){
+
 let statue=prompt('Do you expect that I live now in the city of Jerash, or not?' ,'y/n  or yes/no');
 // console.log('Do you expect that I live now in the city of Jerash, or not?')
 statue=statue.toLowerCase();
@@ -48,7 +50,8 @@ else{
   alert('you have to submit answer pleas');
 
 }
-
+}
+question2 ();
 let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
 // console.log('Do you expect that I am the eldest in my brothers?');
 team=team.toLowerCase();
