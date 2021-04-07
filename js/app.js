@@ -12,176 +12,176 @@ alert('welcome to our website '+ userName + ' your age is ' + userAge +' we hope
 alert('we are going to ask you 7 questions about me Just Just let\'s play a guessing game to give you some excitement');
 function question1(){
 
-let city=prompt('Do you expect that I am from the city of Jerash?' , 'y/n  or yes/no' );
-// console.log('Do you expect that I am from the city of Jerash?')
-city=city.toLowerCase();
-// console.log(city);
-if(city==='yes' || city==='y'){
-  alert('your answer is correct');
-  mark++;
-}
-else if(city==='no'|| city==='n'){
-  alert('your answer is wrong: i am from jerash');
-}
-else{
+  let city=prompt('Do you expect that I am from the city of Jerash?' , 'y/n  or yes/no' );
+  // console.log('Do you expect that I am from the city of Jerash?')
+  city=city.toLowerCase();
+  // console.log(city);
+  if(city==='yes' || city==='y'){
+    alert('your answer is correct');
+    mark++;
+  }
+  else if(city==='no'|| city==='n'){
+    alert('your answer is wrong: i am from jerash');
+  }
+  else{
 
-  alert('you have to submit answer');
+    alert('you have to submit answer');
 
-}
+  }
 
 }
 question1();
 function question2(){
 
-let statue=prompt('Do you expect that I live now in the city of Jerash, or not?' ,'y/n  or yes/no');
-// console.log('Do you expect that I live now in the city of Jerash, or not?')
-statue=statue.toLowerCase();
-// console.log(statue);
-if(statue==='yes' || statue==='y'){
+  let statue=prompt('Do you expect that I live now in the city of Jerash, or not?' ,'y/n  or yes/no');
+  // console.log('Do you expect that I live now in the city of Jerash, or not?')
+  statue=statue.toLowerCase();
+  // console.log(statue);
+  if(statue==='yes' || statue==='y'){
 
-  alert('your answer is wrong :  i live in amman' );
-}
-else if(statue==='no'|| statue==='n'){
-  alert('your answer is correct');
-  mark++;
-}
-else{
+    alert('your answer is wrong :  i live in amman' );
+  }
+  else if(statue==='no'|| statue==='n'){
+    alert('your answer is correct');
+    mark++;
+  }
+  else{
 
-  alert('you have to submit answer pleas');
+    alert('you have to submit answer pleas');
 
-}
+  }
 }
 question2 ();
 function question3 (){
 
 
-let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
-// console.log('Do you expect that I am the eldest in my brothers?');
-team=team.toLowerCase();
-// console.log(team);
-if(team==='yes' || team==='y'){
-  alert('your answer is correct');
-  mark++;
+  let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
+  // console.log('Do you expect that I am the eldest in my brothers?');
+  team=team.toLowerCase();
+  // console.log(team);
+  if(team==='yes' || team==='y'){
+    alert('your answer is correct');
+    mark++;
 
-}
-else if(team==='no'|| team==='n'){
-  alert('your answer is wrong : In fact, I am the eldest of my brother');
-}
-else{
+  }
+  else if(team==='no'|| team==='n'){
+    alert('your answer is wrong : In fact, I am the eldest of my brother');
+  }
+  else{
 
-  alert('you have to submit answer');
+    alert('you have to submit answer');
 
-}
+  }
 }
 question3 ();
 function question4(){
-let continent=prompt('Do you think that I am a millionaire?','y/n  or yes/no');
-// console.log('Do you think that I am a millionaire?');
-continent=continent.toLowerCase();
-// console.log(continent);
+  let continent=prompt('Do you think that I am a millionaire?','y/n  or yes/no');
+  // console.log('Do you think that I am a millionaire?');
+  continent=continent.toLowerCase();
+  // console.log(continent);
 
-if(continent==='yes' || continent==='y'){
+  if(continent==='yes' || continent==='y'){
 
-  alert('your answer is wrong : i am not millionaire but i hope to become a millionare');
+    alert('your answer is wrong : i am not millionaire but i hope to become a millionare');
 
-}
-else if(continent==='no'|| continent==='n'){
-  alert('your answer is correct');
-  mark++;
-}
-else{
+  }
+  else if(continent==='no'|| continent==='n'){
+    alert('your answer is correct');
+    mark++;
+  }
+  else{
 
-  alert('you have to submit answer');
+    alert('you have to submit answer');
 
-}
+  }
 }
 question4 ();
 function question5(){
 
 
-let wonder=prompt('Is my major in software engineering?' ,'y/n  or yes/no');
-// console.log("Is Petra located in Jordan?");
-wonder=wonder.toLowerCase();
-// console.log(wonder);
-switch(wonder){
-case 'yes':
-case 'y':
-  alert('your answer is correct') ;
-  mark++;
+  let wonder=prompt('Is my major in software engineering?' ,'y/n  or yes/no');
+  // console.log("Is Petra located in Jordan?");
+  wonder=wonder.toLowerCase();
+  // console.log(wonder);
+  switch(wonder){
+  case 'yes':
+  case 'y':
+    alert('your answer is correct') ;
+    mark++;
 
-  break;
-case 'no':
-case 'n':
-  alert('your answer is worng : my major is software engineering');
+    break;
+  case 'no':
+  case 'n':
+    alert('your answer is worng : my major is software engineering');
 
-  break;
+    break;
 
-default:
-  alert('you have to submit answer');
+  default:
+    alert('you have to submit answer');
 
 
-}
+  }
 }
 question5 ();
 function question6(){
 
-let myAge=prompt('Can you guess what my age is?');
+  let myAge=prompt('Can you guess what my age is?');
 
-for(let i=1;i<=4;i++){
-  myAge=parseInt(myAge);
+  for(let i=1;i<=4;i++){
+    myAge=parseInt(myAge);
 
-  if(myAge===22){
-    alert('your answer is correct');
-    mark++;
+    if(myAge===22){
+      alert('your answer is correct');
+      mark++;
 
-    break;
+      break;
+    }
+    else if (myAge<15){
+      alert('your guess is too low you have only 4 chances including this one');
+      myAge=prompt('Can you guess what my age is?');
+    }
+    else if (myAge>=15){
+      alert('your guess is too high have only 4 chances including this one');
+      myAge=prompt('Can you guess what my age is?');
+    }
+    else{
+      alert('pleas your guess should in number have only 4 chances including this one');
+      myAge=prompt('Can you guess what my age is?');
+    }
   }
-  else if (myAge<15){
-    alert('your guess is too low you have only 4 chances including this one');
-    myAge=prompt('Can you guess what my age is?');
-  }
-  else if (myAge>=15){
-    alert('your guess is too high have only 4 chances including this one');
-    myAge=prompt('Can you guess what my age is?');
-  }
-  else{
-    alert('pleas your guess should in number have only 4 chances including this one');
-    myAge=prompt('Can you guess what my age is?');
-  }
-}
 
-alert('my age is 22');
+  alert('my age is 22');
 }
 question6 ();
 function question7(){
-let things=['money','travel','hang out','sleep','play football'];
+  let things=['money','travel','hang out','sleep','play football'];
 
-for(let i=1;i<=6;i++){
-  let mood=prompt('Can you guess what things makes me happy you have only 6 chances?');
-  mood=mood.toLowerCase();
-  for(let j=0;j<things.length;j++){
+  for(let i=1;i<=6;i++){
+    let mood=prompt('Can you guess what things makes me happy you have only 6 chances?');
+    mood=mood.toLowerCase();
+    for(let j=0;j<things.length;j++){
 
-    if(mood===things[j]){
-      alert('your anwser is correct');
-      mark++;
-      i=7;
+      if(mood===things[j]){
+        alert('your anwser is correct');
+        mark++;
+        i=7;
 
-      break;
+        break;
 
+
+      }
 
     }
+    if (i===6){
+      alert('i am sorry you could not guess');
 
+    }
   }
-  if (i===6){
-    alert('i am sorry you could not guess');
-
-  }
-}
 
 
 
 
-alert('things that make me happy sleep,travel,hang out ,paly footbal,money');
+  alert('things that make me happy sleep,travel,hang out ,paly footbal,money');
 }
 question7 ();
 
