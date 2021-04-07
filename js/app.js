@@ -52,6 +52,7 @@ else{
 }
 }
 question2 ();
+
 let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
 // console.log('Do you expect that I am the eldest in my brothers?');
 team=team.toLowerCase();
