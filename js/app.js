@@ -136,6 +136,7 @@ let things=['money','travel','hang out','sleep','play football'];
 
 for(let i=1;i<=6;i++){
   let mood=prompt('Can you guess what things makes me happy you have only 6 chances?');
+  mood=mood.parseInt();
 
   for(let j=0;j<things.length;j++){
 
