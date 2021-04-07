@@ -52,6 +52,8 @@ else{
 }
 }
 question2 ();
+function question3 (){
+
 
 let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
 // console.log('Do you expect that I am the eldest in my brothers?');
@@ -70,7 +72,8 @@ else{
   alert('you have to submit answer');
 
 }
-
+}
+question3 ();
 let continent=prompt('Do you think that I am a millionaire?','y/n  or yes/no');
 // console.log('Do you think that I am a millionaire?');
 continent=continent.toLowerCase();
