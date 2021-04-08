@@ -4,8 +4,6 @@
 let mark=0;
 let userName=prompt('what is your name?');
 userName=userName.toLowerCase();
-// console.log('what is your name?')
-// console.log(userName)
 let userAge=prompt('what is your age?');
 alert('welcome to our website '+ userName + ' your age is ' + userAge +' we hope for you to live untle 100 year');
 
@@ -13,9 +11,7 @@ alert('we are going to ask you 7 questions about me Just Just let\'s play a gues
 function question1(){
 
   let city=prompt('Do you expect that I am from the city of Jerash?' , 'y/n  or yes/no' );
-  // console.log('Do you expect that I am from the city of Jerash?')
   city=city.toLowerCase();
-  // console.log(city);
   if(city==='yes' || city==='y'){
     alert('your answer is correct');
     mark++;
@@ -34,9 +30,7 @@ question1();
 function question2(){
 
   let statue=prompt('Do you expect that I live now in the city of Jerash, or not?' ,'y/n  or yes/no');
-  // console.log('Do you expect that I live now in the city of Jerash, or not?')
   statue=statue.toLowerCase();
-  // console.log(statue);
   if(statue==='yes' || statue==='y'){
 
     alert('your answer is wrong :  i live in amman' );
@@ -56,9 +50,7 @@ function question3 (){
 
 
   let team=prompt('Do you expect that I am the eldest in my brothers?' ,'y/n  or yes/no');
-  // console.log('Do you expect that I am the eldest in my brothers?');
   team=team.toLowerCase();
-  // console.log(team);
   if(team==='yes' || team==='y'){
     alert('your answer is correct');
     mark++;
@@ -76,9 +68,7 @@ function question3 (){
 question3 ();
 function question4(){
   let continent=prompt('Do you think that I am a millionaire?','y/n  or yes/no');
-  // console.log('Do you think that I am a millionaire?');
   continent=continent.toLowerCase();
-  // console.log(continent);
 
   if(continent==='yes' || continent==='y'){
 
@@ -100,9 +90,7 @@ function question5(){
 
 
   let wonder=prompt('Is my major in software engineering?' ,'y/n  or yes/no');
-  // console.log("Is Petra located in Jordan?");
   wonder=wonder.toLowerCase();
-  // console.log(wonder);
   switch(wonder){
   case 'yes':
   case 'y':
